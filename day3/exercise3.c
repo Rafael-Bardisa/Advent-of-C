@@ -48,7 +48,7 @@ int main(int argc, char* argv[]){
         // find the earliest maximum number in the above sequence digits times for the maximum number
         int left_index = -1;
         long long line_voltage = 0;
-        for(int digits = 2; digits > 0; digits--){
+        for(int digits = 12; digits > 0; digits--){
             int val = 0;
             for (int i = left_index +1; i <= (RACK_LEN - digits); i++){
                 if (battery_line[i] > val){
